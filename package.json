@@ -1,0 +1,30 @@
+{
+  "name": "btw-sandbox",
+  "version": "1.0.0",
+  "description": "btw sandbox which is used to run sidechain dapps",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "build": "gulp"
+  },
+  "author": "QingFeng Shan <sqf1225@foxmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bignumber": "https://github.com/btwPlatform/bignumber/tarball/master",
+    "change-case": "3.0.0",
+    "json-sql": "https://github.com/btwPlatform/json-sql/tarball/master"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-uglify": "^3.0.0",
+    "mocha": "^2.2.5",
+    "should": "~4.6.0"
+  }
+}

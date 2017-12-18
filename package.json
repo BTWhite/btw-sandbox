@@ -11,9 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "bignumber": "https://github.com/btwPlatform/bignumber/tarball/master",
+    "bignumber": "https://github.com/BTWhite/bignumber/tarball/master",
     "change-case": "3.0.0",
-    "json-sql": "https://github.com/btwPlatform/json-sql/tarball/master"
+    "json-sql": "https://github.com/BTWhite/json-sql/tarball/master"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
